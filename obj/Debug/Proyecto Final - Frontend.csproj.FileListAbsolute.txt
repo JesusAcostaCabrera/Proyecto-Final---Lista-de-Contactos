@@ -13,3 +13,19 @@ D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master\obj\Debug\Proy
 D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master\obj\Debug\Proyecto Final - Frontend.csproj.CoreCompileInputs.cache
 D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master\obj\Debug\Proyecto Final - Frontend.exe
 D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master\obj\Debug\Proyecto Final - Frontend.pdb
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\bin\Debug\Proyecto Final - Frontend.exe.config
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\bin\Debug\Proyecto Final - Frontend.exe
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\bin\Debug\Proyecto Final - Frontend.pdb
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto Final - Frontend.csproj.AssemblyReference.cache
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto Final - Frontend.csproj.SuggestedBindingRedirects.cache
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto_Final___Frontend.AgregarContacto.resources
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto_Final___Frontend.EditarContacto.resources
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto_Final___Frontend.ListaDeContactos.resources
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto_Final___Frontend.Login.resources
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto_Final___Frontend.Properties.Resources.resources
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto Final - Frontend.csproj.GenerateResource.cache
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto Final - Frontend.csproj.CoreCompileInputs.cache
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto Final - Frontend.exe
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto Final - Frontend.pdb
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto_Final___Frontend.ListaObjeto.resources
+D:\Proyectos de Programación\C#\Proyecto-Final---Frontend-master - BackUp\obj\Debug\Proyecto_Final___Frontend.UserControl1.resources

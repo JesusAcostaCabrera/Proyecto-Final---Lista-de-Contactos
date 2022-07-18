@@ -43,6 +43,7 @@
             this.PB_Contacto_Agregar = new System.Windows.Forms.PictureBox();
             this.BT_Subir_Agregar = new System.Windows.Forms.Button();
             this.BT_Volver_Agregar = new System.Windows.Forms.Button();
+            this.TB_ImagenNombre = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Contacto_Agregar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,9 +55,9 @@
             this.textBox7.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.textBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.textBox7.Location = new System.Drawing.Point(114, 678);
-            this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(129, 32);
+            this.textBox7.ReadOnly = true;
+            this.textBox7.Size = new System.Drawing.Size(129, 28);
             this.textBox7.TabIndex = 57;
             this.textBox7.Text = "Nota:";
             // 
@@ -71,7 +72,6 @@
             this.TB_Nota_Agregar.Name = "TB_Nota_Agregar";
             this.TB_Nota_Agregar.Size = new System.Drawing.Size(324, 41);
             this.TB_Nota_Agregar.TabIndex = 56;
-            this.TB_Nota_Agregar.TextChanged += new System.EventHandler(this.TB_Nota_Agregar_TextChanged);
             // 
             // textBox1
             // 
@@ -81,9 +81,9 @@
             this.textBox1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.textBox1.Location = new System.Drawing.Point(114, 580);
-            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(193, 32);
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(193, 28);
             this.textBox1.TabIndex = 55;
             this.textBox1.Text = "Dirección:";
             // 
@@ -98,7 +98,6 @@
             this.TB_Direccion_Agregar.Name = "TB_Direccion_Agregar";
             this.TB_Direccion_Agregar.Size = new System.Drawing.Size(324, 41);
             this.TB_Direccion_Agregar.TabIndex = 54;
-            this.TB_Direccion_Agregar.TextChanged += new System.EventHandler(this.TB_Direccion_Agregar_TextChanged);
             // 
             // textBox9
             // 
@@ -108,9 +107,9 @@
             this.textBox9.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.textBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.textBox9.Location = new System.Drawing.Point(114, 384);
-            this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(258, 32);
+            this.textBox9.ReadOnly = true;
+            this.textBox9.Size = new System.Drawing.Size(258, 28);
             this.textBox9.TabIndex = 53;
             this.textBox9.Text = "Número telefónico:";
             // 
@@ -125,7 +124,6 @@
             this.TB_Numero_Agregar.Name = "TB_Numero_Agregar";
             this.TB_Numero_Agregar.Size = new System.Drawing.Size(324, 41);
             this.TB_Numero_Agregar.TabIndex = 52;
-            this.TB_Numero_Agregar.TextChanged += new System.EventHandler(this.TB_Numero_Agregar_TextChanged);
             // 
             // BT_Confirmar_Agregar
             // 
@@ -150,9 +148,9 @@
             this.textBox3.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.textBox3.Location = new System.Drawing.Point(114, 482);
-            this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(175, 32);
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(175, 28);
             this.textBox3.TabIndex = 48;
             this.textBox3.Text = "Correo:";
             // 
@@ -164,9 +162,9 @@
             this.textBox10.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.textBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.textBox10.Location = new System.Drawing.Point(114, 286);
-            this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(308, 32);
+            this.textBox10.ReadOnly = true;
+            this.textBox10.Size = new System.Drawing.Size(308, 28);
             this.textBox10.TabIndex = 47;
             this.textBox10.Text = "Nombre y Apellido:";
             // 
@@ -181,7 +179,6 @@
             this.TB_Correo_Agregar.Name = "TB_Correo_Agregar";
             this.TB_Correo_Agregar.Size = new System.Drawing.Size(324, 41);
             this.TB_Correo_Agregar.TabIndex = 45;
-            this.TB_Correo_Agregar.TextChanged += new System.EventHandler(this.TB_Correo_Agregar_TextChanged);
             // 
             // TB_Nombre_Agregar
             // 
@@ -194,7 +191,6 @@
             this.TB_Nombre_Agregar.Name = "TB_Nombre_Agregar";
             this.TB_Nombre_Agregar.Size = new System.Drawing.Size(324, 41);
             this.TB_Nombre_Agregar.TabIndex = 44;
-            this.TB_Nombre_Agregar.TextChanged += new System.EventHandler(this.TB_Nombre_Agregar_TextChanged);
             // 
             // PB_Contacto_Agregar
             // 
@@ -211,7 +207,8 @@
             this.BT_Subir_Agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.BT_Subir_Agregar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BT_Subir_Agregar.BackgroundImage")));
             this.BT_Subir_Agregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BT_Subir_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BT_Subir_Agregar.FlatAppearance.BorderSize = 0;
+            this.BT_Subir_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BT_Subir_Agregar.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BT_Subir_Agregar.Location = new System.Drawing.Point(374, 24);
             this.BT_Subir_Agregar.Name = "BT_Subir_Agregar";
@@ -227,7 +224,8 @@
             this.BT_Volver_Agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.BT_Volver_Agregar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BT_Volver_Agregar.BackgroundImage")));
             this.BT_Volver_Agregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BT_Volver_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BT_Volver_Agregar.FlatAppearance.BorderSize = 0;
+            this.BT_Volver_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BT_Volver_Agregar.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BT_Volver_Agregar.Location = new System.Drawing.Point(24, 24);
             this.BT_Volver_Agregar.Name = "BT_Volver_Agregar";
@@ -238,12 +236,25 @@
             this.BT_Volver_Agregar.UseVisualStyleBackColor = false;
             this.BT_Volver_Agregar.Click += new System.EventHandler(this.BT_Volver_Agregar_Click);
             // 
+            // TB_ImagenNombre
+            // 
+            this.TB_ImagenNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.TB_ImagenNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TB_ImagenNombre.Font = new System.Drawing.Font("Gill Sans MT", 16F);
+            this.TB_ImagenNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.TB_ImagenNombre.Location = new System.Drawing.Point(450, 144);
+            this.TB_ImagenNombre.Multiline = true;
+            this.TB_ImagenNombre.Name = "TB_ImagenNombre";
+            this.TB_ImagenNombre.Size = new System.Drawing.Size(78, 41);
+            this.TB_ImagenNombre.TabIndex = 60;
+            // 
             // AgregarContacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.ClientSize = new System.Drawing.Size(540, 960);
+            this.Controls.Add(this.TB_ImagenNombre);
             this.Controls.Add(this.BT_Volver_Agregar);
             this.Controls.Add(this.BT_Subir_Agregar);
             this.Controls.Add(this.textBox7);
@@ -262,7 +273,6 @@
             this.Name = "AgregarContacto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgregarContacto";
-            this.Load += new System.EventHandler(this.AgregarContacto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PB_Contacto_Agregar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -284,5 +294,6 @@
         private System.Windows.Forms.TextBox TB_Nombre_Agregar;
         private System.Windows.Forms.Button BT_Subir_Agregar;
         private System.Windows.Forms.Button BT_Volver_Agregar;
+        private System.Windows.Forms.TextBox TB_ImagenNombre;
     }
 }

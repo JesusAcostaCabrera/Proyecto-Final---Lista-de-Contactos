@@ -16,7 +16,7 @@ namespace Proyecto_Final___Frontend
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ListaDeContactos());
+            Application.Run(new Login());
         }
     }
 }
